@@ -1,6 +1,3 @@
-# Battery_Thermal_Management_Simulation
-Simulink Project for Battery Thermal Management with SOC and Temperature Monitoring
-
 # Battery Thermal Management Simulation
 
 ## Project Description
@@ -16,6 +13,16 @@ This Simulink project demonstrates the thermal management of a table-based batte
 - Monitors SOC, Voltage, and Current in real-time.
 - Uses convective heat transfer to model thermal behavior.
 - Displays SOC and temperature changes on a scope.
+
+## Files Included
+- `Battery_Thermal_Management_Simulation.slx`: The Simulink model file.
+- `README.md`: Project description and details.
+- Optional: Additional documentation in the `docs` folder.
+
+## How to Use
+1. Clone this repository to your local machine.
+2. Open `Battery_Thermal_Management_Simulation.slx` in MATLAB Simulink.
+3. Run the simulation and observe the SOC and temperature outputs on the scope.
 
 ## Author
 - Jayesh Verma
