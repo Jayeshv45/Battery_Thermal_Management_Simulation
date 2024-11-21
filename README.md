@@ -4,13 +4,12 @@
 This Simulink project demonstrates the thermal management of a table-based battery under controlled current conditions. The model includes:
 - A controlled current source supplying current to the battery.
 - A table-based battery model.
-- A bus selector to output State of Charge (SOC), Voltage, and Current to a scope.
 - A convective heat transfer block to simulate thermal effects during charging and discharging.
-- Temperature monitoring of the battery to observe the increase in temperature as SOC decreases.
+- Temperature monitoring of the battery to observe the increase in temperature as SOC decreases through Scope.
 
 ## Features
 - Simulates battery charging and discharging with thermal management.
-- Monitors SOC, Voltage, and Current in real-time.
+- Monitors SOC & Temp in real-time.
 - Uses convective heat transfer to model thermal behavior.
 - Displays SOC and temperature changes on a scope.
 
